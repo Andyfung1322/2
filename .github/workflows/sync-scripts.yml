@@ -27,5 +27,5 @@ jobs:
         with:
           source_repo: "https://github.com/insChow/auto_repo-sync.git"
           source_branch: "master"
-          destination_branch: "main"
+          destination_branch: "master"
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
