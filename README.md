@@ -53,7 +53,7 @@
 
 <img src="assets/set_up_workflow.png" alt="set_up_workflow" style="zoom:75%;" />
 
-复制 https://github.com/insChow/auto_repo-sync/blob/master/.github/workflows/sync-scripts.yml里面的代码
+复制 https://github.com/insChow/auto_repo-sync/blob/master/.github/workflows/sync-scripts.yml 里面的代码
 
 复制完毕后直接点击右上角的`Start commit`后直接`Commit new file`即可
 
