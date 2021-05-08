@@ -25,7 +25,7 @@
 
 > 麻烦各位**不要 fork**`不要fork` _不要 fork_ 不要 fork 不要 fork,通过下面的方法重新创建分支，同步代码
 
-[此方式亲测可行，请放心食用，点击查看如何使用 reposync 的方式进行同步代码](https://github.com/insChow/auto_repo-sync/blob/master/reposync.md)
+[此方式亲测可行，请放心食用，点击查看如何使用 reposync 的方式进行同步代码]
 
 # 通过reposync方式进行代码同步
 
