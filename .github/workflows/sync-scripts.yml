@@ -23,9 +23,9 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/insChow/Actions.git"
-          source_branch: "main"
-          destination_branch: "main" #按照自己仓库分支名称修改
+          source_repo: "https://github.com/insChow/auto_repo-sync.git"
+          source_branch: "master"
+          destination_branch: "master" #按照自己仓库分支名称修改
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
           
           
