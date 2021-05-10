@@ -1,13 +1,13 @@
-# File: .github/workflows/repo-sync.yml
+# File: .github/workflows/repo-scripts.yml
 name: 自动同步工作流程
 on:
   schedule:
-  #  - cron: '5 8,20 * * *'
+  #  - cron: '5 8,20 * * *' #实际运行请删除#
   workflow_dispatch:
   #watch:
   #  types: started
   repository_dispatch:
-    types: sync-insChow-scripts
+    types: sync-scripts
 jobs:
   repo-sync:
     env:
@@ -24,7 +24,7 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/insChow/auto_repo-sync.git"
-          source_branch: "master"
+          source_branch: "master" #按照被GIT的仓库分支名称修改
           destination_branch: "master" #按照自己仓库分支名称修改
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
           
